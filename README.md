@@ -1,5 +1,12 @@
 # Fleet Heartbeat
 
+[![CI](https://github.com/blackboxprogramming/fleet-heartbeat/actions/workflows/ci.yml/badge.svg)](https://github.com/blackboxprogramming/fleet-heartbeat/actions/workflows/ci.yml)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB.svg)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg)](https://fastapi.tiangolo.com)
+[![Pi Fleet](https://img.shields.io/badge/fleet-5_nodes-FF2255.svg)](https://blackroad.io)
+
+
+
 Real-time health monitoring for the BlackRoad Pi mesh. Probes 5 Raspberry Pi nodes via SSH, collects CPU temp, memory, disk, Ollama models, Docker containers, and stores history in SQLite.
 
 ## Nodes
